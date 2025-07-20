@@ -23,10 +23,13 @@ object PatternMatching extends App {
 
   // deconstructing tuples
   val aTuple = ("Bon Jovi", "Rock")
+  val anotherTyple =("a", "b")
   val bandDescription = aTuple match {
     case (band, genre) => s"$band belongs to the genre $genre"
     case _ => "I don't know what you're talking about"
   }
+
+  println(bandDescription)
 
   // decomposing lists
   val aList = List(1,2,3)

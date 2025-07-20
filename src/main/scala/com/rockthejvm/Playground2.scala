@@ -8,6 +8,6 @@ package com.rockthejvm
   *
   * Daniel @ Rock the JVM
   */
-object Playground extends App {
-  println("I love Scala!")
+object Playground2 extends App {
+  println("I love Scala! **********")
 }
